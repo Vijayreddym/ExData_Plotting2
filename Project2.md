@@ -2,7 +2,7 @@
 Vijay M  
 January 30, 2016  
 
-**1 Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? **
+**Q1 Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? **
 
 ######Using the base plotting system, make a plot showing the total PM2.5 emission from all sources
 ######for each of the years 1999, 2002, 2005, and 2008.
@@ -99,7 +99,7 @@ print(ggp)
 
 
         
-** Q4.Across the United States, how have emissions from coal combustion-related sources changed from 1999-2008? **
+**Q4.Across the United States, how have emissions from coal combustion-related sources changed from 1999-2008? **
 
 ###########Note: The SCC levels go from generic to specific. We assume that coal combustion 
 ###########related SCC records are those where SCC.Level.One contains the substring 'comb' and SCC.Level.
@@ -133,7 +133,7 @@ print(ggp)
 
 **Emissions from coal combustion related sources have decreased from 6 * 10^6 to below 4 * 10^6 from 1999-2008.**
 
-# 5.How have emissions from motor vehicle sources changed from 1999-2008 in Baltimore City?
+**Q5.How have emissions from motor vehicle sources changed from 1999-2008 in Baltimore City?**
 
 ```r
 library(ggplot2)
